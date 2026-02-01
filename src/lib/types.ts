@@ -39,7 +39,11 @@ export interface YearlyData {
 
 export interface LeaseResult {
     netEffectiveRentPerSf: number;
+    effectiveAnnualRate: number;
+    effectiveMonthlyRate: number;
     totalCost: number;
+    totalBaseRent: number;
+    totalExpenses: number;
     totalTIValue: number;
     totalFreeRentValue: number;
     npvValue: number;

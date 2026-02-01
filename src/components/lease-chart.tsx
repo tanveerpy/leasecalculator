@@ -1,10 +1,10 @@
 "use client";
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { YearBreakdown } from "@/lib/types";
+import { YearlyData } from "@/lib/types";
 
 interface LeaseChartProps {
-    data: YearBreakdown[];
+    data: YearlyData[];
     leaseType: string;
 }
 

@@ -18,7 +18,7 @@ export function calculateLease(input: LeaseInput): LeaseResult {
         expenseStopPerSf = 0
     } = input;
 
-    let yearlyData: YearBreakdown[] = [];
+    let yearlyData: YearlyData[] = [];
     let totalBaseRent = 0;
     let totalExpenses = 0;
 

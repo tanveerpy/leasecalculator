@@ -1,4 +1,4 @@
-import { LeaseInput, LeaseResult, LeaseType, YearBreakdown } from "./types";
+import { LeaseInput, LeaseResult, LeaseType, YearlyData } from "./types";
 
 export function calculateLease(input: LeaseInput): LeaseResult {
     const {

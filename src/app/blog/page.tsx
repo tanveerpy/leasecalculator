@@ -28,7 +28,7 @@ export default function BlogIndex() {
                         <Card className="h-full hover:shadow-lg transition-shadow border-slate-200 dark:border-slate-800 flex flex-col overflow-hidden">
                             <div className="relative h-48 w-full bg-slate-100 dark:bg-slate-900">
                                 <Image
-                                    src={post.image}
+                                    src={`/leasecalculator${post.image}`}
                                     alt={post.title}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-105"

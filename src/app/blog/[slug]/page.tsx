@@ -76,7 +76,7 @@ export default function BlogPostPage({ params }: Props) {
                     </div>
                     <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg mt-8">
                         <Image
-                            src={post.image}
+                            src={`/leasecalculator${post.image}`}
                             alt={post.title}
                             fill
                             className="object-cover"

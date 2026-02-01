@@ -324,7 +324,7 @@ export function Calculator() {
                                         </tr>
                                     </thead>
                                     <tbody className="divide-y divide-slate-100">
-                                        {result?.yearlyData.map((year) => (
+                                        {result?.yearlyData.map((year: any) => (
                                             <tr key={year.year} className="bg-white hover:bg-slate-50 transition-colors">
                                                 <td className="px-4 py-3 font-medium text-slate-900">Year {year.year}</td>
                                                 <td className="px-4 py-3">${year.baseRent.toLocaleString(undefined, { maximumFractionDigits: 0 })}</td>
